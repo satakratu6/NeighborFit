@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+.env
+.env.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# Runtime
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional cache
+.cache/
+.cache/*
+.cache-loader/
+tmp/
+temp/
+
+# IDE-specific (VSCode/JetBrains/etc.)
+.vscode/
+.idea/
+
+# Output
+dist/
+build/
