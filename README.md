@@ -21,7 +21,9 @@ A FICCI-Anarock survey (Oct 2024) and expert insights from Knight Frank, CREDAI,
 - Focuses on **quality of match**, not just lowest price.
 
 ---
+## 🚀 Live Demo
 
+Check out the live app here: [NeighborFit Deployment](https://resonant-madeleine-e3a52b.netlify.app/)
 ## 🔍 User Research Summary
 
 ### 📊 Sources Consulted
