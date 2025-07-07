@@ -4,7 +4,8 @@ import { AppBar, Toolbar, Typography, Container, IconButton, Box } from "@mui/ma
 import Home from "./pages/Home";
 import PreferenceForm from "./pages/PreferenceForm";
 import Results from "./pages/Results";
-import { Brightness4, Brightness7 } from '@mui/icons-material';
+import Brightness4Icon from '@mui/icons-material/Brightness4';
+import Brightness7Icon from '@mui/icons-material/Brightness7';
 
 function App({ toggleTheme, mode }) {
   return (
@@ -13,7 +14,7 @@ function App({ toggleTheme, mode }) {
         <Toolbar>
           <Typography variant="h6" sx={{ flexGrow: 1 }}>NeighborFit</Typography>
           <IconButton color="inherit" onClick={toggleTheme} sx={{ ml: 1 }}>
-            {mode === 'dark' ? <Brightness7 /> : <Brightness4 />}
+            {mode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
           </IconButton>
         </Toolbar>
       </AppBar>
